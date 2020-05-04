@@ -67,35 +67,6 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     console.log(username.value)
+    // Pass in an array of every field
     checkRequired([username, email, password, password2])
-
-    // // Do this for every field
-    // if (username.value === '') {
-    //     showError(username, 'Username is required')  //show red error message 
-    // } else {
-    //     showSuccess(username) // show green outline for success
-    // }
-
-    // if (email.value === '') {
-    //     showError(email, 'Email is required')  //show red error message 
-    // } else if (!isValidEmail(email.value)) {
-    //     showError(email, 'Email is not valid')
-    // } else {
-    //     showSuccess(email) // show green outline for success
-    // }
-
-
-    // if (password.value === '') {
-    //     showError(password, 'Password is required')  //show red error message 
-    // } else {
-    //     showSuccess(password) // show green outline for success
-    // }
-
-
-
-    // if (password2.value === '') {
-    //     showError(password2, 'Confirm password is required')  //show red error message 
-    // } else {
-    //     showSuccess(password2) // show green outline for success
-    // }
 })
