@@ -1,6 +1,15 @@
 # Vanilla JavaScript Form Validator
 A form validator built with HTML, CSS, and 🍦vanilla JavaScript
 
+<!-- ![Form Validator Success](./images/success.png)
+![Form Validator Error](./images/error.png) -->
+
+<div align="center">
+<img src="./images/success.png" width="300">
+<img src="./images/error.png" width="285">
+</div>
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -13,7 +22,7 @@ A form validator built with HTML, CSS, and 🍦vanilla JavaScript
 3. Run `npm install` and then `npm start`
 
 
-## Made with the Help of: 
+## Tech Stack
 - [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [css](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [html](https://developer.mozilla.org/en-US/docs/Web/HTML)
